@@ -13,6 +13,8 @@
 		881373F91E888EE400969F5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 881373F71E888EE400969F5B /* Main.storyboard */; };
 		881373FB1E888EE400969F5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 881373FA1E888EE400969F5B /* Assets.xcassets */; };
 		881373FE1E888EE400969F5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 881373FC1E888EE400969F5B /* LaunchScreen.storyboard */; };
+		881374081E88912900969F5B /* background-music-aac.caf in Resources */ = {isa = PBXBuildFile; fileRef = 881374061E88912900969F5B /* background-music-aac.caf */; };
+		881374091E88912900969F5B /* pew-pew-lei.caf in Resources */ = {isa = PBXBuildFile; fileRef = 881374071E88912900969F5B /* pew-pew-lei.caf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		881373FA1E888EE400969F5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		881373FD1E888EE400969F5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		881373FF1E888EE400969F5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		881374061E88912900969F5B /* background-music-aac.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "background-music-aac.caf"; sourceTree = "<group>"; };
+		881374071E88912900969F5B /* pew-pew-lei.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pew-pew-lei.caf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		881373EC1E888EE400969F5B /* FirstGame */ = {
 			isa = PBXGroup;
 			children = (
+				881374051E88912900969F5B /* Sounds */,
 				881373ED1E888EE400969F5B /* AppDelegate.swift */,
 				881373F31E888EE400969F5B /* GameScene.swift */,
 				881373F51E888EE400969F5B /* GameViewController.swift */,
@@ -65,6 +70,15 @@
 				881373FF1E888EE400969F5B /* Info.plist */,
 			);
 			path = FirstGame;
+			sourceTree = "<group>";
+		};
+		881374051E88912900969F5B /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				881374061E88912900969F5B /* background-music-aac.caf */,
+				881374071E88912900969F5B /* pew-pew-lei.caf */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,8 +140,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				881374081E88912900969F5B /* background-music-aac.caf in Resources */,
 				881373F91E888EE400969F5B /* Main.storyboard in Resources */,
 				881373FB1E888EE400969F5B /* Assets.xcassets in Resources */,
+				881374091E88912900969F5B /* pew-pew-lei.caf in Resources */,
 				881373FE1E888EE400969F5B /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
